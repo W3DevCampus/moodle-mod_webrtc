@@ -29,7 +29,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$module->version  = 2013070501; // The current module version (Date: YYYYMMDDXX)
-$module->requires = 2011120500;  // Requires this Moodle version
+$module->version  = 2014092900; // The current module version (Date: YYYYMMDDXX)
+$module->requires = 2013051400;  // Requires this Moodle version
 $module->cron     = 4 * 3600;    // Period for cron to check this module (secs)
 $module->component = 'mod_webrtc'; // To check on upgrade, that module sits in correct place
